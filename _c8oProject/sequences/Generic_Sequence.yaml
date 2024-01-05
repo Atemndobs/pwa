@@ -1,0 +1,65 @@
+↓Call_Transaction [steps.TransactionStep-1704297455080]: 
+  sourceTransaction: curate.HTTP_connector_Search.JSON_HTTP_transaction
+↓Iterator [steps.IteratorStep-1704297501822]: 
+  ↓hits [steps.XMLComplexStep-1704297531095]: 
+    nodeName: hits
+    ↓title [steps.XMLElementStep-1704297566139]: 
+      nodeName: title
+      sourceDefinition: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1704297455080
+            - java.lang.String: 
+              - ↑value: ./document/object/hits/object/title/text()
+    ↓title1 [steps.XMLElementStep-1704297578105]: 
+      nodeName: author
+      sourceDefinition: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1704297455080
+            - java.lang.String: 
+              - ↑value: ./document/object/hits/object/author/text()
+    ↓title2 [steps.XMLElementStep-1704297587558]: 
+      nodeName: bpm
+      sourceDefinition: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1704297455080
+            - java.lang.String: 
+              - ↑value: ./document/object/hits/object/bpm/text()
+    ↓title3 [steps.XMLElementStep-1704297590403]: 
+      nodeName: key
+      sourceDefinition: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1704297455080
+            - java.lang.String: 
+              - ↑value: ./document/object/hits/object/key/text()
+    ↓title4 [steps.XMLElementStep-1704297592787]: 
+      nodeName: path
+      sourceDefinition: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1704297455080
+            - java.lang.String: 
+              - ↑value: ./document/object/hits/object/path/text()
+    ↓title5 [steps.XMLElementStep-1704297594959]: 
+      nodeName: image
+      sourceDefinition: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1704297455080
+            - java.lang.String: 
+              - ↑value: ./document/object/hits/object/image/text()

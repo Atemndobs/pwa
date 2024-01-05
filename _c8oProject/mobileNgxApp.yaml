@@ -65,6 +65,10 @@ componentScriptContent:
 tplProjectName: mobilebuilder_tpl_8_1_0_ngx
 ↓Menu [ngx.components.UIDynamicMenu-1500890597895]: 🗏 mobileMenus/Menu.yaml
 ↓Page [ngx.components.PageComponent-1500538678074]: 🗏 mobilePages/Page.yaml
+↓Home [ngx.components.PageComponent-1704189563830]: 🗏 mobilePages/Home.yaml
+↓Search [ngx.components.PageComponent-1704189593724]: 🗏 mobilePages/Search.yaml
+↓Play [ngx.components.PageComponent-1704189610609]: 🗏 mobilePages/Play.yaml
+↓Profile [ngx.components.PageComponent-1704189658951]: 🗏 mobilePages/Profile.yaml
 ↓Style [ngx.components.UIStyle-1491635462437]: 
   comment: You can add some global application styles here
   styleContent: 
@@ -275,6 +279,7 @@ tplProjectName: mobilebuilder_tpl_8_1_0_ngx
           '
 ↓AutoDarkTheme [ngx.components.UIStyle-1662391887098]: 
   comment: This will define the dark theme for the application. This will be selected if the device is in dark mode. You can disable this to disable automatic dark mode switching
+  isEnabled: false
   styleContent: 
     - xmlizable: 
       - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent

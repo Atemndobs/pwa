@@ -1,0 +1,98 @@
+segment: path-to-home
+title: Title for Home
+↓Header [ngx.components.UIDynamicElement-1704189798778]: 
+  beanData: '{"ionBean":"Header"}'
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1704189798759]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    tagName: ion-toolbar
+    ↓Icon [ngx.components.UIDynamicElement-1704189879381]: 
+      beanData: |
+        '{
+         "ionBean": "Icon",
+         "IconName": "plain:camera",
+         "IonSize": "plain:large"
+        }'
+      isEnabled: false
+      tagName: ion-icon
+    ↓SearchBar [ngx.components.UIDynamicElement-1704212920539]: 
+      beanData: '{"ionBean":"Searchbar"}'
+      tagName: ion-searchbar
+    ↓Icon2 [ngx.components.UIDynamicElement-1704189970304]: 
+      beanData: |
+        '{
+         "ionBean": "Icon",
+         "IconName": "plain:search",
+         "IonSize": "plain:large",
+         "IconSlot": "plain:end"
+        }'
+      isEnabled: false
+      tagName: ion-icon
+  ↓Refresher [ngx.components.UIDynamicElement-1704309929805]: 
+    beanData: '{"ionBean":"Refresher"}'
+    tagName: ion-refresher
+↓Content [ngx.components.UIDynamicElement-1704212314564]: 
+  beanData: '{"ionBean":"Content","Fullscreen":"plain:true"}'
+  tagName: ion-content
+  ↓CardContainer [ngx.components.UIDynamicElement-1704212663303]: 
+    beanData: '{"ionBean":"Card"}'
+    tagName: ion-card
+    ↓LazyImage [ngx.components.UIDynamicElement-1704212663282]: 
+      beanData: '{"ionBean":"LazyImage","Src":"plain:https:\/\/s3.amazonaws.com\/curators3\/images\/burna_boy_pop_ye_collar_vandalized_edit.jpeg"}'
+      tagName: ion-img
+    ↓CardHeader [ngx.components.UIDynamicElement-1704212663284]: 
+      beanData: '{"ionBean":"CardHeader"}'
+      tagName: ion-card-header
+      ↓CardTitle [ngx.components.UIDynamicElement-1704212663286]: 
+        beanData: '{"ionBean":"CardTitle"}'
+        tagName: ion-card-title
+        ↓TextItem [ngx.components.UIDynamicElement-1704212663288]: 
+          beanData: '{"ionBean":"TextItem"}'
+          tagName: ion-text
+          ↓some_text [ngx.components.UIText-1704212663290]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Rockstar
+        ↓TextItem1 [ngx.components.UIDynamicElement-1704304860329]: 
+          beanData: '{"ionBean":"TextItem"}'
+          tagName: ion-text
+          ↓some_text [ngx.components.UIText-1704304860332]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: source:{"filter":"Sequence","project":"curate","input":"","model":{"data":[{"sequence":"curate.Generic_Sequence","marker":""}],"path":"?.hits?.title","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓CardSubTitle [ngx.components.UIDynamicElement-1704212663292]: 
+        beanData: '{"ionBean":"CardSubTitle"}'
+        tagName: ion-card-subtitle
+        ↓TextItem [ngx.components.UIDynamicElement-1704212663294]: 
+          beanData: '{"ionBean":"TextItem"}'
+          tagName: ion-text
+          ↓some_text [ngx.components.UIText-1704212663296]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Full Crate
+      ↓CardSubTitle1 [ngx.components.UIDynamicElement-1704214200983]: 
+        beanData: '{"ionBean":"CardSubTitle"}'
+        tagName: ion-card-subtitle
+        ↓TextItem [ngx.components.UIDynamicElement-1704214200986]: 
+          beanData: '{"ionBean":"TextItem"}'
+          tagName: ion-text
+          ↓some_text [ngx.components.UIText-1704214200989]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:E minor - BPM 90
+    ↓CardContent [ngx.components.UIDynamicElement-1704212663298]: 
+      beanData: '{"ionBean":"CardContent"}'
+      isEnabled: false
+      tagName: ion-card-content
+      ↓TextItem [ngx.components.UIDynamicElement-1704212663300]: 
+        beanData: '{"ionBean":"TextItem"}'
+        tagName: ion-text
+        ↓some_text [ngx.components.UIText-1704212663302]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:E minor - BPM 90

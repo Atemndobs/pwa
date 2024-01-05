@@ -1,0 +1,82 @@
+segment: path-to-profile
+title: Title for Profile
+↓Content [ngx.components.UIDynamicElement-1704310073536]: 
+  beanData: '{"ionBean":"Content"}'
+  tagName: ion-content
+  ↓Grid [ngx.components.UIDynamicElement-1704310480494]: 
+    beanData: '{"ionBean":"Grid"}'
+    tagName: ion-grid
+    ↓GridRow [ngx.components.UIDynamicElement-1704310480481]: 
+      beanData: '{"ionBean":"GridRow","Height":"plain:50%"}'
+      tagName: ion-row
+      ↓GridCol [ngx.components.UIDynamicElement-1704310480483]: 
+        beanData: '{"ionBean":"GridCol"}'
+        tagName: ion-col
+        ↓CardContainer [ngx.components.UIDynamicElement-1704310890487]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓LazyImage [ngx.components.UIDynamicElement-1704310890466]: 
+            beanData: '{"ionBean":"LazyImage","Src":"plain:https:\/\/s3.amazonaws.com\/curators3\/images\/burna_boy_pop_ye_collar_vandalized_edit.jpeg"}'
+            tagName: ion-img
+    ↓GridRow1 [ngx.components.UIDynamicElement-1704310845756]: 
+      beanData: '{"ionBean":"GridRow","Height":"plain:25%"}'
+      tagName: ion-row
+      ↓GridCol [ngx.components.UIDynamicElement-1704310845759]: 
+        beanData: '{"ionBean":"GridCol","Size":"plain:6"}'
+        tagName: ion-col
+        ↓CardContainer [ngx.components.UIDynamicElement-1704311112949]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓LazyImage [ngx.components.UIDynamicElement-1704311112928]: 
+            beanData: '{"ionBean":"LazyImage","Src":"plain:https:\/\/s3.amazonaws.com\/curators3\/images\/aluna_kaytranada_ft_rema_recipemp3.jpeg"}'
+            tagName: ion-img
+      ↓GridCol1 [ngx.components.UIDynamicElement-1704310845768]: 
+        beanData: '{"ionBean":"GridCol"}'
+        tagName: ion-col
+        ↓CardContainer [ngx.components.UIDynamicElement-1704311538651]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓LazyImage [ngx.components.UIDynamicElement-1704311538654]: 
+            beanData: '{"ionBean":"LazyImage","Src":"plain:https:\/\/s3.amazonaws.com\/curators3\/images\/love_song_dao_remixmp3.jpeg"}'
+            tagName: ion-img
+    ↓GridRow2 [ngx.components.UIDynamicElement-1704311089189]: 
+      beanData: '{"ionBean":"GridRow","Height":"plain:25%"}'
+      tagName: ion-row
+      ↓GridCol [ngx.components.UIDynamicElement-1704311089192]: 
+        beanData: '{"ionBean":"GridCol","Size":"plain:6"}'
+        tagName: ion-col
+      ↓GridCol1 [ngx.components.UIDynamicElement-1704311089195]: 
+        beanData: '{"ionBean":"GridCol"}'
+        tagName: ion-col
+↓Header [ngx.components.UIDynamicElement-1704310701321]: 
+  beanData: '{"ionBean":"Header"}'
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1704310701302]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    tagName: ion-toolbar
+    ↓BarTitle [ngx.components.UIDynamicElement-1704310701318]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      tagName: ion-title
+      ↓some_text [ngx.components.UIText-1704310701320]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Curator
+    ↓Icon [ngx.components.UIDynamicElement-1704310733794]: 
+      beanData: |
+        '{
+         "ionBean": "Icon",
+         "IconName": "plain:heart",
+         "IonSize": "plain:large",
+         "IconSlot": "plain:start"
+        }'
+      tagName: ion-icon
+    ↓Icon1 [ngx.components.UIDynamicElement-1704310776590]: 
+      beanData: |
+        '{
+         "ionBean": "Icon",
+         "IconName": "plain:camera",
+         "IonSize": "plain:large",
+         "IconSlot": "plain:end"
+        }'
+      tagName: ion-icon

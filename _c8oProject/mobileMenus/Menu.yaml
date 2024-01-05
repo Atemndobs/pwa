@@ -1,5 +1,6 @@
 beanData: '{"ionBean":"Menu"}'
 comment: A menu with all pages added automatically
+isEnabled: false
 tagName: ion-menu
 ↓Header [ngx.components.UIDynamicElement-1500890727582]: 
   beanData: '{"ionBean":"Header"}'
@@ -17,6 +18,7 @@ tagName: ion-menu
             - MobileSmartSourceType: plain:My Menu
 ↓Content [ngx.components.UIDynamicElement-1500890742326]: 
   beanData: '{"ionBean":"Content"}'
+  isEnabled: false
   tagName: ion-content
   ↓List [ngx.components.UIDynamicElement-1501343197007]: 
     beanData: '{"ionBean":"List","Inset":"plain:inset"}'

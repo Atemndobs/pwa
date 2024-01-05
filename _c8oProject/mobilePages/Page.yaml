@@ -17,52 +17,98 @@ scriptContent:
         
 segment: path-to-xfirst
 title: First page
-↓Header [ngx.components.UIDynamicElement-1491634212350]: 
+↓Header [ngx.components.UIDynamicElement-1704184932727]: 
   beanData: '{"ionBean":"Header"}'
-  comment: Page header
+  isEnabled: false
   tagName: ion-header
-  ↓ToolBar [ngx.components.UIDynamicElement-1491634231108]: 
+  ↓ToolBar [ngx.components.UIDynamicElement-1704184932708]: 
     beanData: '{"ionBean":"ToolBar"}'
     tagName: ion-toolbar
-    ↓ButtonSet1 [ngx.components.UIDynamicElement-1588171103814]: 
+    ↓ButtonSet [ngx.components.UIDynamicElement-1704184932710]: 
       beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
       tagName: ion-buttons
-      ↓BackButton [ngx.components.UIDynamicElement-1643993281257]: 
+      ↓BackButton [ngx.components.UIDynamicElement-1704184932712]: 
         beanData: '{"ionBean":"BackButton"}'
         tagName: ion-back-button
-      ↓MenuButton [ngx.components.UIDynamicElement-1588172846908]: 
+      ↓MenuButton [ngx.components.UIDynamicElement-1704184932714]: 
         beanData: '{"ionBean":"MenuButton"}'
         tagName: ion-menu-button
-    ↓BarTitle [ngx.components.UIDynamicElement-1491634265317]: 
+    ↓ButtonSet1 [ngx.components.UIDynamicElement-1704184932716]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      tagName: ion-buttons
+      ↓Button [ngx.components.UIDynamicElement-1704184932718]: 
+        beanData: '{"ionBean":"Button"}'
+        tagName: ion-button
+        ↓Icon [ngx.components.UIDynamicElement-1704184932720]: 
+          beanData: '{"ionBean":"Icon","IconName":"plain:ellipsis-vertical"}'
+          tagName: ion-icon
+        ↓attr [ngx.components.UIControlEvent-1704184932722]: 
+    ↓BarTitle [ngx.components.UIDynamicElement-1704184932724]: 
       beanData: '{"ionBean":"BarTitle"}'
       tagName: ion-title
-      ↓Text [ngx.components.UIText-1491634275121]: 
+      ↓some_text [ngx.components.UIText-1704184932726]: 
         textValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-            - MobileSmartSourceType: plain:Page
-    ↓ButtonSet2 [ngx.components.UIDynamicElement-1588170811054]: 
-      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
-      tagName: ion-buttons
-      ↓Button [ngx.components.UIDynamicElement-1588170817806]: 
-        beanData: '{"ionBean":"Button"}'
-        tagName: ion-button
-        ↓Icon [ngx.components.UIDynamicElement-1588170831166]: 
-          beanData: |
-            '{
-             "ionBean": "Icon",
-             "IconName": "plain:ellipsis-vertical",
-             "IconMdName": "plain",
-             "IconIosName": "plain"
-            }'
-          tagName: ion-icon
+            - MobileSmartSourceType: plain:Curator 
 ↓Content [ngx.components.UIDynamicElement-1489674805352]: 
   beanData: '{"ionBean":"Content"}'
   comment: Page content
   tagName: ion-content
+  ↓TabsContainer [ngx.components.UIDynamicElement-1704187189569]: 
+    beanData: '{"ionBean":"Tabs"}'
+    tagName: ion-tabs
+    ↓TabBar [ngx.components.UIDynamicElement-1704187731341]: 
+      beanData: '{"ionBean":"TabBar"}'
+      tagName: ion-tab-bar
+      ↓TabButton [ngx.components.UIDynamicTabButton-1704187370942]: 
+        beanData: '{"ionBean":"TabButton","Layout":"plain:icon-start"}'
+        tabpage: curate.Application.NgxApp.Home
+        tagName: ion-tab-button
+        ↓Icon [ngx.components.UIDynamicElement-1704187328721]: 
+          beanData: '{"ionBean":"Icon","IconName":"plain:home"}'
+          tagName: ion-icon
+          ↓attr [ngx.components.UIControlEvent-1704298481116]: 
+            attrName: (tap)
+            eventName: onTap
+            ↓CallSequence [ngx.components.UIDynamicAction-1704298521001]: 
+              beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:curate.Generic_Sequence"}'
+              tagName: CallSequence
+      ↓TabButton1 [ngx.components.UIDynamicTabButton-1704187425245]: 
+        beanData: '{"ionBean":"TabButton"}'
+        tabpage: curate.Application.NgxApp.Search
+        tagName: ion-tab-button
+        ↓Icon [ngx.components.UIDynamicElement-1704187433336]: 
+          beanData: '{"ionBean":"Icon","IconName":"plain:search"}'
+          tagName: ion-icon
+          ↓attr [ngx.components.UIControlEvent-1704297992500]: 
+            attrName: (tap)
+            eventName: onTap
+            ↓CallSequence [ngx.components.UIDynamicAction-1704298237449]: 
+              beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:curate.Generic_Sequence"}'
+              tagName: CallSequence
+      ↓TabButton2 [ngx.components.UIDynamicTabButton-1704187752365]: 
+        beanData: '{"ionBean":"TabButton"}'
+        tabpage: curate.Application.NgxApp.Play
+        tagName: ion-tab-button
+        ↓Icon [ngx.components.UIDynamicElement-1704187752368]: 
+          beanData: '{"ionBean":"Icon","IconName":"plain:play"}'
+          tagName: ion-icon
+      ↓TabButton3 [ngx.components.UIDynamicTabButton-1704187766978]: 
+        beanData: '{"ionBean":"TabButton"}'
+        tabpage: curate.Application.NgxApp.Profile
+        tagName: ion-tab-button
+        ↓AvatarItem [ngx.components.UIDynamicElement-1704187803818]: 
+          beanData: '{"ionBean":"Avatar"}'
+          tagName: ion-avatar
+          ↓Image [ngx.components.UIDynamicElement-1704187803817]: 
+            beanData: '{"ionBean":"Image","url":"plain:https:\/\/curators3.s3.amazonaws.com\/images\/015b_not_bad_feat_dawon.jpeg"}'
+            selfClose: true
+            tagName: img
 ↓Footer [ngx.components.UIDynamicElement-1491634242460]: 
   beanData: '{"ionBean":"Footer"}'
   comment: Page footer
+  isEnabled: false
   tagName: ion-footer
   ↓ToolBar [ngx.components.UIDynamicElement-1491634317538]: 
     beanData: '{"ionBean":"ToolBar"}'
@@ -77,7 +123,7 @@ title: First page
           textValue: 
             - xmlizable: 
               - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-              - MobileSmartSourceType: plain:Action 1
+              - MobileSmartSourceType: plain:Previous
     ↓ButtonSet1 [ngx.components.UIDynamicElement-1588170269871]: 
       beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
       tagName: ion-buttons
@@ -88,4 +134,4 @@ title: First page
           textValue: 
             - xmlizable: 
               - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-              - MobileSmartSourceType: plain:Action 2
+              - MobileSmartSourceType: plain:Next

@@ -1,0 +1,77 @@
+segment: path-to-search
+title: Title for Search
+↓Header [ngx.components.UIDynamicElement-1704190250277]: 
+  beanData: '{"ionBean":"Header"}'
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1704190250258]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    tagName: ion-toolbar
+    ↓SearchBar [ngx.components.UIDynamicElement-1704190265495]: 
+      beanData: '{"ionBean":"Searchbar"}'
+      tagName: ion-searchbar
+  ↓SegmentContainer [ngx.components.UIDynamicElement-1704190374562]: 
+    beanData: '{"ionBean":"Segment","ControlName":"plain:name1704190374562"}'
+    isEnabled: false
+    tagName: ion-segment
+    ↓SegmentButton [ngx.components.UIDynamicElement-1704190384002]: 
+      beanData: '{"ionBean":"SegmentButton"}'
+      tagName: ion-segment-button
+      ↓some_text [ngx.components.UIText-1704190405721]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Genre
+    ↓SegmentButton1 [ngx.components.UIDynamicElement-1704190387500]: 
+      beanData: '{"ionBean":"SegmentButton"}'
+      tagName: ion-segment-button
+      ↓GenericItem [ngx.components.UIDynamicElement-1704190728531]: 
+        beanData: '{"ionBean":"GenericItem"}'
+        tagName: ion-item
+        ↓Icon [ngx.components.UIDynamicElement-1704190578322]: 
+          beanData: '{"ionBean":"Icon"}'
+          tagName: ion-icon
+        ↓some_text [ngx.components.UIText-1704190524200]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:BPM
+    ↓SegmentButton2 [ngx.components.UIDynamicElement-1704190392781]: 
+      beanData: '{"ionBean":"SegmentButton"}'
+      tagName: ion-segment-button
+      ↓Icon [ngx.components.UIDynamicElement-1704190547171]: 
+        beanData: '{"ionBean":"Icon","IconName":"plain:heart"}'
+        tagName: ion-icon
+↓Content [ngx.components.UIDynamicElement-1704191039427]: 
+  beanData: '{"ionBean":"Content"}'
+  tagName: ion-content
+  ↓Grid [ngx.components.UIDynamicElement-1704191054040]: 
+    beanData: '{"ionBean":"Grid"}'
+    tagName: ion-grid
+    ↓GridCol2 [ngx.components.UIDynamicElement-1704191266814]: 
+      beanData: '{"ionBean":"GridCol"}'
+      tagName: ion-col
+      ↓ListContainer [ngx.components.UIDynamicElement-1704191663163]: 
+        beanData: '{"ionBean":"List"}'
+        tagName: ion-list
+        ↓Image [ngx.components.UIDynamicElement-1704191400118]: 
+          beanData: '{"ionBean":"Image","url":"plain:https:\/\/curators3.s3.amazonaws.com\/images\/01kuyashisa_ft_tylericudj_thabzin_kheada3mp3.jpeg"}'
+          selfClose: true
+          tagName: img
+        ↓tag [ngx.components.UIControlDirective-1704191663156]: 
+          directiveIndexName: idx
+          directiveItemName: item
+          directiveSource: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: 'script:[{text: ''first list item''},{text: ''second list item''}]'
+          ↓ListItem [ngx.components.UIDynamicElement-1704191663158]: 
+            beanData: '{"ionBean":"ListItem"}'
+            tagName: ion-item
+            ↓Label [ngx.components.UIDynamicElement-1704191663160]: 
+              beanData: '{"ionBean":"Label"}'
+              tagName: ion-label
+              ↓some_text [ngx.components.UIText-1704191663162]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                    - MobileSmartSourceType: script:item.text

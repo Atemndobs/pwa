@@ -1,0 +1,8 @@
+server: core.curator.atemkeng.eu
+↓Core_Get_Songs [transactions.JsonHttpTransaction]: 
+  ↑default: true
+  subDir: api/songs
+  ↓limit [variables.RequestableHttpVariable-1704231004305]: 
+    value: 4
+↓Get_match_criteria [transactions.JsonHttpTransaction]: 
+  subDir: api/songs/match/criteria/get

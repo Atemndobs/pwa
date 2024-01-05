@@ -1,0 +1,99 @@
+segment: path-to-play
+title: Title for Play
+↓Header [ngx.components.UIDynamicElement-1704304974039]: 
+  beanData: '{"ionBean":"Header"}'
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1704304974042]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    tagName: ion-toolbar
+    ↓SearchBar [ngx.components.UIDynamicElement-1704304974045]: 
+      beanData: |
+        '{
+         "ionBean": "Searchbar",
+         "IonColor": "plain:medium",
+         "clearIcon": "plain:close",
+         "searchIcon": "plain:search-sharp",
+         "showCancelButton": "plain:focus"
+        }'
+      tagName: ion-searchbar
+      ↓attr [ngx.components.UIControlEvent-1704308639115]: 
+        attrName: (ngSubmit)
+        eventName: onSubmit
+  ↓SegmentContainer [ngx.components.UIDynamicElement-1704304974048]: 
+    beanData: '{"ionBean":"Segment","ControlName":"plain:name1704190374562"}'
+    isEnabled: false
+    tagName: ion-segment
+    ↓SegmentButton [ngx.components.UIDynamicElement-1704304974051]: 
+      beanData: '{"ionBean":"SegmentButton"}'
+      tagName: ion-segment-button
+      ↓some_text [ngx.components.UIText-1704304974054]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Genre
+    ↓SegmentButton1 [ngx.components.UIDynamicElement-1704304974057]: 
+      beanData: '{"ionBean":"SegmentButton"}'
+      tagName: ion-segment-button
+      ↓GenericItem [ngx.components.UIDynamicElement-1704304974060]: 
+        beanData: '{"ionBean":"GenericItem"}'
+        tagName: ion-item
+        ↓Icon [ngx.components.UIDynamicElement-1704304974063]: 
+          beanData: '{"ionBean":"Icon"}'
+          tagName: ion-icon
+        ↓some_text [ngx.components.UIText-1704304974066]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:BPM
+    ↓SegmentButton2 [ngx.components.UIDynamicElement-1704304974069]: 
+      beanData: '{"ionBean":"SegmentButton"}'
+      tagName: ion-segment-button
+      ↓Icon [ngx.components.UIDynamicElement-1704304974072]: 
+        beanData: '{"ionBean":"Icon","IconName":"plain:heart"}'
+        tagName: ion-icon
+↓Content [ngx.components.UIDynamicElement-1704308164498]: 
+  beanData: '{"ionBean":"Content"}'
+  tagName: ion-content
+  ↓tag [ngx.components.UIControlDirective-1704308173678]: 
+    directiveSource: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Sequence","project":"curate","input":"","model":{"data":[{"sequence":"curate.Generic_Sequence","marker":""}],"path":"?.hits","prefix":"","suffix":"","custom":"","useCustom":false}}
+    ↓CardContainer [ngx.components.UIDynamicElement-1704308328841]: 
+      beanData: '{"ionBean":"Card"}'
+      tagName: ion-card
+      ↓LazyImage [ngx.components.UIDynamicElement-1704308328820]: 
+        beanData: '{"ionBean":"LazyImage","Src":"source:{\"filter\":\"Iteration\",\"project\":\"curate\",\"input\":\"\",\"model\":{\"data\":[{\"priority\":1704308173678}],\"path\":\"?.image\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}"}'
+        tagName: ion-img
+      ↓CardHeader [ngx.components.UIDynamicElement-1704308328822]: 
+        beanData: '{"ionBean":"CardHeader"}'
+        tagName: ion-card-header
+        ↓CardTitle [ngx.components.UIDynamicElement-1704308328824]: 
+          beanData: '{"ionBean":"CardTitle"}'
+          tagName: ion-card-title
+          ↓TextItem [ngx.components.UIDynamicElement-1704308328826]: 
+            beanData: '{"ionBean":"TextItem"}'
+            tagName: ion-text
+            ↓some_text [ngx.components.UIText-1704308328828]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704308173678}],"path":"?.title","prefix":"","suffix":"","custom":"","useCustom":false}}
+        ↓CardSubTitle [ngx.components.UIDynamicElement-1704308328830]: 
+          beanData: '{"ionBean":"CardSubTitle"}'
+          tagName: ion-card-subtitle
+          ↓TextItem [ngx.components.UIDynamicElement-1704308328832]: 
+            beanData: '{"ionBean":"TextItem"}'
+            tagName: ion-text
+            ↓some_text [ngx.components.UIText-1704308328834]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704308173678}],"path":"?.author","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓ToggleButton [ngx.components.UIDynamicElement-1704305395912]: 
+    beanData: '{"ionBean":"Toggle","ControlName":"plain:name1704305395912"}'
+    tagName: ion-toggle
+    ↓attr [ngx.components.UIControlEvent-1704305472999]: 
+      ↓CallSequence [ngx.components.UIDynamicAction-1704305591584]: 
+        beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:curate.Generic_Sequence"}'
+        tagName: CallSequence
