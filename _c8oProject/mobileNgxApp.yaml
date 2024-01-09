@@ -69,6 +69,7 @@ tplProjectName: mobilebuilder_tpl_8_1_0_ngx
 ↓Search [ngx.components.PageComponent-1704189593724]: 🗏 mobilePages/Search.yaml
 ↓Play [ngx.components.PageComponent-1704189610609]: 🗏 mobilePages/Play.yaml
 ↓Profile [ngx.components.PageComponent-1704189658951]: 🗏 mobilePages/Profile.yaml
+↓Player [ngx.components.PageComponent-1704835591250]: 🗏 mobilePages/Player.yaml
 ↓Style [ngx.components.UIStyle-1491635462437]: 
   comment: You can add some global application styles here
   styleContent: 

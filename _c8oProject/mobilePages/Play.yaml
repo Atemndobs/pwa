@@ -54,46 +54,65 @@ title: Title for Play
 ↓Content [ngx.components.UIDynamicElement-1704308164498]: 
   beanData: '{"ionBean":"Content"}'
   tagName: ion-content
-  ↓tag [ngx.components.UIControlDirective-1704308173678]: 
+  ↓Button [ngx.components.UIDynamicElement-1704840609305]: 
+    beanData: '{"ionBean":"Button","IonSize":"plain:large"}'
+    tagName: ion-button
+    ↓Label [ngx.components.UIDynamicElement-1704840609300]: 
+      beanData: '{"ionBean":"Label"}'
+      tagName: ion-label
+      ↓some_text [ngx.components.UIText-1704840609302]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Get Songs
+    ↓attr [ngx.components.UIControlEvent-1704840609304]: 
+      ↓CallSequence [ngx.components.UIDynamicAction-1704840807123]: 
+        beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:curate.Generic_Sequence"}'
+        tagName: CallSequence
+  ↓tag [ngx.components.UIControlDirective-1704840955312]: 
     directiveSource: 
       - xmlizable: 
         - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-        - MobileSmartSourceType: source:{"filter":"Sequence","project":"curate","input":"","model":{"data":[{"sequence":"curate.Generic_Sequence","marker":""}],"path":"?.hits","prefix":"","suffix":"","custom":"","useCustom":false}}
-    ↓CardContainer [ngx.components.UIDynamicElement-1704308328841]: 
+        - MobileSmartSourceType: source:{"filter":"Sequence","project":"curate","input":"","model":{"data":[{"sequence":"curate.Generic_Sequence","marker":""}],"path":"?.Songs","prefix":"","suffix":"","custom":"","useCustom":false}}
+    ↓CardContainer [ngx.components.UIDynamicElement-1704841359907]: 
       beanData: '{"ionBean":"Card"}'
       tagName: ion-card
-      ↓LazyImage [ngx.components.UIDynamicElement-1704308328820]: 
-        beanData: '{"ionBean":"LazyImage","Src":"source:{\"filter\":\"Iteration\",\"project\":\"curate\",\"input\":\"\",\"model\":{\"data\":[{\"priority\":1704308173678}],\"path\":\"?.image\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}"}'
+      ↓LazyImage [ngx.components.UIDynamicElement-1704841359886]: 
+        beanData: '{"ionBean":"LazyImage","Src":"source:{\"filter\":\"Iteration\",\"project\":\"curate\",\"input\":\"\",\"model\":{\"data\":[{\"priority\":1704840955312}],\"path\":\"?.Image\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}"}'
         tagName: ion-img
-      ↓CardHeader [ngx.components.UIDynamicElement-1704308328822]: 
+      ↓CardHeader [ngx.components.UIDynamicElement-1704841359888]: 
         beanData: '{"ionBean":"CardHeader"}'
         tagName: ion-card-header
-        ↓CardTitle [ngx.components.UIDynamicElement-1704308328824]: 
+        ↓CardTitle [ngx.components.UIDynamicElement-1704841359890]: 
           beanData: '{"ionBean":"CardTitle"}'
           tagName: ion-card-title
-          ↓TextItem [ngx.components.UIDynamicElement-1704308328826]: 
+          ↓TextItem [ngx.components.UIDynamicElement-1704841359892]: 
             beanData: '{"ionBean":"TextItem"}'
             tagName: ion-text
-            ↓some_text [ngx.components.UIText-1704308328828]: 
+            ↓some_text [ngx.components.UIText-1704841359894]: 
               textValue: 
                 - xmlizable: 
                   - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                  - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704308173678}],"path":"?.title","prefix":"","suffix":"","custom":"","useCustom":false}}
-        ↓CardSubTitle [ngx.components.UIDynamicElement-1704308328830]: 
+                  - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704840955312}],"path":"?.Title","prefix":"","suffix":"","custom":"","useCustom":false}}
+        ↓CardSubTitle [ngx.components.UIDynamicElement-1704841359896]: 
           beanData: '{"ionBean":"CardSubTitle"}'
           tagName: ion-card-subtitle
-          ↓TextItem [ngx.components.UIDynamicElement-1704308328832]: 
+          ↓TextItem [ngx.components.UIDynamicElement-1704841359898]: 
             beanData: '{"ionBean":"TextItem"}'
             tagName: ion-text
-            ↓some_text [ngx.components.UIText-1704308328834]: 
+            ↓some_text [ngx.components.UIText-1704841359900]: 
               textValue: 
                 - xmlizable: 
                   - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                  - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704308173678}],"path":"?.author","prefix":"","suffix":"","custom":"","useCustom":false}}
-  ↓ToggleButton [ngx.components.UIDynamicElement-1704305395912]: 
-    beanData: '{"ionBean":"Toggle","ControlName":"plain:name1704305395912"}'
-    tagName: ion-toggle
-    ↓attr [ngx.components.UIControlEvent-1704305472999]: 
-      ↓CallSequence [ngx.components.UIDynamicAction-1704305591584]: 
-        beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:curate.Generic_Sequence"}'
-        tagName: CallSequence
+                  - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704840955312}],"path":"?.Author","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓CardContent [ngx.components.UIDynamicElement-1704841359902]: 
+        beanData: '{"ionBean":"CardContent"}'
+        tagName: ion-card-content
+        ↓TextItem [ngx.components.UIDynamicElement-1704841359904]: 
+          beanData: '{"ionBean":"TextItem"}'
+          tagName: ion-text
+          ↓some_text [ngx.components.UIText-1704841359906]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704840955312}],"path":"?.Image","prefix":"","suffix":"","custom":"","useCustom":false}}

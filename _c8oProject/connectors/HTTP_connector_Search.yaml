@@ -1,6 +1,27 @@
+↑default: true
 server: search.curator.atemkeng.eu
 ↓JSON_HTTP_transaction [transactions.JsonHttpTransaction]: 
   ↑default: true
+  httpParameters: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+      - com.twinsoft.convertigo.beans.common.XMLVector: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: Content-Type
+            - java.lang.String: 
+              - ↑value: application/x-www-form-urlencoded
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: Authorization
+            - java.lang.String: 
+              - ↑value: Bearer masterKey
+  subDir: indexes/songs/search?limit=5&offset=20&q=""
+↓JSON_HTTP_transaction1 [transactions.JsonHttpTransaction]: 
   httpParameters: 
     - xmlizable: 
       - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector

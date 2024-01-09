@@ -1,0 +1,76 @@
+segment: path-to-player
+title: Title for Player
+↓Header [ngx.components.UIDynamicElement-1704835591253]: 
+  beanData: '{"ionBean":"Header"}'
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1704835591256]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    tagName: ion-toolbar
+    ↓BarTitle [ngx.components.UIDynamicElement-1704837167898]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      tagName: ion-title
+      ↓some_text [ngx.components.UIText-1704837167897]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:FRANCE 24 NEWS
+↓Content [ngx.components.UIDynamicElement-1704835591292]: 
+  beanData: '{"ionBean":"Content"}'
+  tagName: ion-content
+  ↓Button [ngx.components.UIDynamicElement-1704836418648]: 
+    beanData: |
+      '{
+       "ionBean": "Button",
+       "IonColor": "plain:light",
+       "IonShape": "plain:round",
+       "IonSize": "plain:default"
+      }'
+    tagName: ion-button
+    ↓Label [ngx.components.UIDynamicElement-1704836418643]: 
+      beanData: '{"ionBean":"Label"}'
+      tagName: ion-label
+      ↓some_text [ngx.components.UIText-1704836418645]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:Read All News
+    ↓attr [ngx.components.UIControlEvent-1704836418647]: 
+      ↓CallSequence [ngx.components.UIDynamicAction-1704836669333]: 
+        beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:curate.Generic_Sequence_fance24"}'
+        tagName: CallSequence
+  ↓tag [ngx.components.UIControlDirective-1704836754481]: 
+    directiveSource: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+        - MobileSmartSourceType: source:{"filter":"Sequence","project":"curate","input":"","model":{"data":[{"sequence":"curate.Generic_Sequence_fance24","marker":""}],"path":"?.News","prefix":"","suffix":"","custom":"","useCustom":false}}
+    ↓CardContainer [ngx.components.UIDynamicElement-1704836883835]: 
+      beanData: '{"ionBean":"Card"}'
+      tagName: ion-card
+      ↓LazyImage [ngx.components.UIDynamicElement-1704836883814]: 
+        beanData: '{"ionBean":"LazyImage","Src":"source:{\"filter\":\"Iteration\",\"project\":\"curate\",\"input\":\"\",\"model\":{\"data\":[{\"priority\":1704836754481}],\"path\":\"?.Url\",\"prefix\":\"\",\"suffix\":\"\",\"custom\":\"\",\"useCustom\":false}}"}'
+        tagName: ion-img
+      ↓CardHeader [ngx.components.UIDynamicElement-1704836883816]: 
+        beanData: '{"ionBean":"CardHeader"}'
+        tagName: ion-card-header
+        ↓CardSubTitle [ngx.components.UIDynamicElement-1704836883824]: 
+          beanData: '{"ionBean":"CardSubTitle"}'
+          tagName: ion-card-subtitle
+          ↓TextItem [ngx.components.UIDynamicElement-1704836883826]: 
+            beanData: '{"ionBean":"TextItem"}'
+            tagName: ion-text
+            ↓some_text [ngx.components.UIText-1704836883828]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704836754481}],"path":"?.Title","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓CardContent [ngx.components.UIDynamicElement-1704836883830]: 
+        beanData: '{"ionBean":"CardContent"}'
+        tagName: ion-card-content
+        ↓TextItem [ngx.components.UIDynamicElement-1704836883832]: 
+          beanData: '{"ionBean":"TextItem"}'
+          tagName: ion-text
+          ↓some_text [ngx.components.UIText-1704836883834]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704836754481}],"path":"?.Description","prefix":"","suffix":"","custom":"","useCustom":false}}

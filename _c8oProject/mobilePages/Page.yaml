@@ -105,6 +105,18 @@ title: First page
             beanData: '{"ionBean":"Image","url":"plain:https:\/\/curators3.s3.amazonaws.com\/images\/015b_not_bad_feat_dawon.jpeg"}'
             selfClose: true
             tagName: img
+      ↓TabButton4 [ngx.components.UIDynamicTabButton-1704835709944]: 
+        beanData: '{"ionBean":"TabButton"}'
+        tabpage: curate.Application.NgxApp.Player
+        tagName: ion-tab-button
+        ↓Icon [ngx.components.UIDynamicElement-1704835991821]: 
+          beanData: |
+            '{
+             "ionBean": "Icon",
+             "IonColor": "plain:dark",
+             "IconIosName": "plain:heart"
+            }'
+          tagName: ion-icon
 ↓Footer [ngx.components.UIDynamicElement-1491634242460]: 
   beanData: '{"ionBean":"Footer"}'
   comment: Page footer

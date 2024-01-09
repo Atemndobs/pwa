@@ -1,43 +1,43 @@
-↓Call_Transaction [steps.TransactionStep-1704839666400]: 
-  sourceTransaction: curate.HTTP_connector_Search.JSON_HTTP_transaction
-↓Iterator [steps.IteratorStep-1704839704129]: 
+↓Call_Transaction [steps.TransactionStep-1704797174463]: 
+  sourceTransaction: curate.HTTP_connector_France24.XML_HTTP_transaction
+↓Iterator [steps.IteratorStep-1704797188756]: 
   sourceDefinition: 
     - xmlizable: 
       - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
       - com.twinsoft.convertigo.beans.common.XMLVector: 
         - java.lang.String: 
-          - ↑value: 1704839666400
+          - ↑value: 1704797174463
         - java.lang.String: 
-          - ↑value: ./document/object/hits/object
-  ↓complex [steps.XMLComplexStep-1704839745077]: 
-    nodeName: Songs
-    ↓element [steps.XMLElementStep-1704839788436]: 
+          - ↑value: ./document/rss/channel/item
+  ↓News [steps.XMLComplexStep-1704797236221]: 
+    nodeName: News
+    ↓element [steps.XMLElementStep-1704797255964]: 
       nodeName: Title
       sourceDefinition: 
         - xmlizable: 
           - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
           - com.twinsoft.convertigo.beans.common.XMLVector: 
             - java.lang.String: 
-              - ↑value: 1704839704129
+              - ↑value: 1704797188756
             - java.lang.String: 
               - ↑value: ./title/text()
-    ↓element1 [steps.XMLElementStep-1704839875733]: 
-      nodeName: Author
+    ↓element1 [steps.XMLElementStep-1704797263878]: 
+      nodeName: Description
       sourceDefinition: 
         - xmlizable: 
           - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
           - com.twinsoft.convertigo.beans.common.XMLVector: 
             - java.lang.String: 
-              - ↑value: 1704839704129
+              - ↑value: 1704797188756
             - java.lang.String: 
-              - ↑value: ./author/text()
-    ↓element2 [steps.XMLElementStep-1704839876568]: 
-      nodeName: Image
+              - ↑value: ./description/text()
+    ↓element2 [steps.XMLElementStep-1704797264180]: 
+      nodeName: Url
       sourceDefinition: 
         - xmlizable: 
           - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
           - com.twinsoft.convertigo.beans.common.XMLVector: 
             - java.lang.String: 
-              - ↑value: 1704839704129
+              - ↑value: 1704797188756
             - java.lang.String: 
-              - ↑value: ./image/text()
+              - ↑value: ./source/@url

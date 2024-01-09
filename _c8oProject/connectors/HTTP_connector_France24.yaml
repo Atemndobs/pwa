@@ -1,0 +1,6 @@
+https: true
+port: 443
+server: www.france24.com
+↓XML_HTTP_transaction [transactions.XmlHttpTransaction]: 
+  ↑default: true
+  subDir: en/rss

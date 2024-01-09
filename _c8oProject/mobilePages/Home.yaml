@@ -28,9 +28,6 @@ title: Title for Home
         }'
       isEnabled: false
       tagName: ion-icon
-  ↓Refresher [ngx.components.UIDynamicElement-1704309929805]: 
-    beanData: '{"ionBean":"Refresher"}'
-    tagName: ion-refresher
 ↓Content [ngx.components.UIDynamicElement-1704212314564]: 
   beanData: '{"ionBean":"Content","Fullscreen":"plain:true"}'
   tagName: ion-content
