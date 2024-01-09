@@ -152,7 +152,7 @@
     </xsd:complexType>
     <xsd:complexType name="HTTP_connector_Search_JSON_HTTP_transaction_document_object_hits_object_genreType">
         <xsd:sequence>
-            <xsd:element minOccurs="0" name="value" type="curate_ns:HTTP_connector_Search_JSON_HTTP_transaction_document_object_hits_object_genre_valueType"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="value" type="curate_ns:HTTP_connector_Search_JSON_HTTP_transaction_document_object_hits_object_genre_valueType"/>
         </xsd:sequence>
         <xsd:attribute name="length" type="xsd:byte"/>
         <xsd:attribute default="array" name="type" type="xsd:string"/>
