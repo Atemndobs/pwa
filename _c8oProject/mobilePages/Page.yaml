@@ -94,6 +94,10 @@ title: First page
         ↓Icon [ngx.components.UIDynamicElement-1704187752368]: 
           beanData: '{"ionBean":"Icon","IconName":"plain:play"}'
           tagName: ion-icon
+          ↓attr [ngx.components.UIControlEvent-1704842035153]: 
+            ↓CallSequence [ngx.components.UIDynamicAction-1704842158780]: 
+              beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:curate.Generic_Sequence"}'
+              tagName: CallSequence
       ↓TabButton3 [ngx.components.UIDynamicTabButton-1704187766978]: 
         beanData: '{"ionBean":"TabButton"}'
         tabpage: curate.Application.NgxApp.Profile
@@ -114,7 +118,7 @@ title: First page
             '{
              "ionBean": "Icon",
              "IonColor": "plain:dark",
-             "IconIosName": "plain:heart"
+             "IconIosName": "plain:camera"
             }'
           tagName: ion-icon
 ↓Footer [ngx.components.UIDynamicElement-1491634242460]: 

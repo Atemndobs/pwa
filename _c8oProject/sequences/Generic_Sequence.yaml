@@ -41,3 +41,63 @@
               - ↑value: 1704839704129
             - java.lang.String: 
               - ↑value: ./image/text()
+    ↓element3 [steps.XMLElementStep-1704842251193]: 
+      nodeName: path
+      sourceDefinition: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1704839704129
+            - java.lang.String: 
+              - ↑value: ./path/text()
+    ↓element4 [steps.XMLElementStep-1704842338106]: 
+      nodeName: bpm
+      sourceDefinition: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1704839704129
+            - java.lang.String: 
+              - ↑value: ./bpm/text()
+    ↓element5 [steps.XMLElementStep-1704842338892]: 
+      nodeName: key
+      sourceDefinition: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1704839704129
+            - java.lang.String: 
+              - ↑value: ./key/text()
+    ↓element6 [steps.XMLElementStep-1704842339652]: 
+      nodeName: happy
+      sourceDefinition: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1704839704129
+            - java.lang.String: 
+              - ↑value: ./happy/text()
+    ↓element7 [steps.XMLElementStep-1704842340342]: 
+      nodeName: sad
+      sourceDefinition: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1704839704129
+            - java.lang.String: 
+              - ↑value: ./sad/text()
+    ↓element8 [steps.XMLElementStep-1704842594904]: 
+      nodeName: genre
+      sourceDefinition: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: 1704839704129
+            - java.lang.String: 
+              - ↑value: ./genre/value/text()

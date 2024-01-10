@@ -19,6 +19,28 @@ title: Title for Play
       ↓attr [ngx.components.UIControlEvent-1704308639115]: 
         attrName: (ngSubmit)
         eventName: onSubmit
+      ↓Button [ngx.components.UIDynamicElement-1704840609305]: 
+        beanData: |
+          '{
+           "ionBean": "Button",
+           "IonColor": "plain:dark",
+           "IonSize": "plain:small",
+           "IonMode": "plain:ios"
+          }'
+        isEnabled: false
+        tagName: ion-button
+        ↓Label [ngx.components.UIDynamicElement-1704840609300]: 
+          beanData: '{"ionBean":"Label"}'
+          tagName: ion-label
+          ↓some_text [ngx.components.UIText-1704840609302]: 
+            textValue: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                - MobileSmartSourceType: plain:Get Songs
+        ↓attr [ngx.components.UIControlEvent-1704840609304]: 
+          ↓CallSequence [ngx.components.UIDynamicAction-1704840807123]: 
+            beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:curate.Generic_Sequence"}'
+            tagName: CallSequence
   ↓SegmentContainer [ngx.components.UIDynamicElement-1704304974048]: 
     beanData: '{"ionBean":"Segment","ControlName":"plain:name1704190374562"}'
     isEnabled: false
@@ -54,21 +76,6 @@ title: Title for Play
 ↓Content [ngx.components.UIDynamicElement-1704308164498]: 
   beanData: '{"ionBean":"Content"}'
   tagName: ion-content
-  ↓Button [ngx.components.UIDynamicElement-1704840609305]: 
-    beanData: '{"ionBean":"Button","IonSize":"plain:large"}'
-    tagName: ion-button
-    ↓Label [ngx.components.UIDynamicElement-1704840609300]: 
-      beanData: '{"ionBean":"Label"}'
-      tagName: ion-label
-      ↓some_text [ngx.components.UIText-1704840609302]: 
-        textValue: 
-          - xmlizable: 
-            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-            - MobileSmartSourceType: plain:Get Songs
-    ↓attr [ngx.components.UIControlEvent-1704840609304]: 
-      ↓CallSequence [ngx.components.UIDynamicAction-1704840807123]: 
-        beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:curate.Generic_Sequence"}'
-        tagName: CallSequence
   ↓tag [ngx.components.UIControlDirective-1704840955312]: 
     directiveSource: 
       - xmlizable: 
@@ -85,6 +92,7 @@ title: Title for Play
         tagName: ion-card-header
         ↓CardTitle [ngx.components.UIDynamicElement-1704841359890]: 
           beanData: '{"ionBean":"CardTitle"}'
+          isEnabled: false
           tagName: ion-card-title
           ↓TextItem [ngx.components.UIDynamicElement-1704841359892]: 
             beanData: '{"ionBean":"TextItem"}'
@@ -104,15 +112,39 @@ title: Title for Play
               textValue: 
                 - xmlizable: 
                   - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704840955312}],"path":"?.Title","prefix":"","suffix":"","custom":"","useCustom":false}}
+        ↓CardSubTitle1 [ngx.components.UIDynamicElement-1704842733845]: 
+          beanData: '{"ionBean":"CardSubTitle"}'
+          tagName: ion-card-subtitle
+          ↓TextItem [ngx.components.UIDynamicElement-1704842733848]: 
+            beanData: '{"ionBean":"TextItem"}'
+            tagName: ion-text
+            ↓some_text [ngx.components.UIText-1704842733851]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
                   - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704840955312}],"path":"?.Author","prefix":"","suffix":"","custom":"","useCustom":false}}
-      ↓CardContent [ngx.components.UIDynamicElement-1704841359902]: 
-        beanData: '{"ionBean":"CardContent"}'
-        tagName: ion-card-content
-        ↓TextItem [ngx.components.UIDynamicElement-1704841359904]: 
+        ↓TextItem [ngx.components.UIDynamicElement-1704843149864]: 
           beanData: '{"ionBean":"TextItem"}'
           tagName: ion-text
-          ↓some_text [ngx.components.UIText-1704841359906]: 
+          ↓some_text [ngx.components.UIText-1704843149863]: 
             textValue: 
               - xmlizable: 
                 - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-                - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704840955312}],"path":"?.Image","prefix":"","suffix":"","custom":"","useCustom":false}}
+                - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704840955312}],"path":"?.key","prefix":"","suffix":"","custom":"","useCustom":false}}
+          ↓TextItem [ngx.components.UIDynamicElement-1704843870375]: 
+            beanData: '{"ionBean":"TextItem"}'
+            tagName: ion-text
+            ↓some_text [ngx.components.UIText-1704843870378]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704840955312}],"path":"?.bpm","prefix":"","suffix":"","custom":"","useCustom":false}}
+          ↓TextItem1 [ngx.components.UIDynamicElement-1704843960820]: 
+            beanData: '{"ionBean":"TextItem"}'
+            tagName: ion-text
+            ↓some_text [ngx.components.UIText-1704843960823]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+                  - MobileSmartSourceType: source:{"filter":"Iteration","project":"curate","input":"","model":{"data":[{"priority":1704840955312}],"path":"?.genre","prefix":"","suffix":"","custom":"","useCustom":false}}
