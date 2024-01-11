@@ -20,7 +20,7 @@ server: search.curator.atemkeng.eu
               - ↑value: Authorization
             - java.lang.String: 
               - ↑value: Bearer masterKey
-  subDir: indexes/songs/search?limit=10&offset=20&q=""
+  subDir: indexes/songs/search?limit=30&offset=400&q=""
 ↓JSON_HTTP_transaction1 [transactions.JsonHttpTransaction]: 
   httpParameters: 
     - xmlizable: 
